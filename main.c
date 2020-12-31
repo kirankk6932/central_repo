@@ -2,7 +2,7 @@
 #include<string.h>
 void main()
 {
-void fact();
+fact();
 void rev();
 void big2();
 void palendrome();
