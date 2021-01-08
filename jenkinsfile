@@ -3,7 +3,6 @@ pipeline {
         stages {
                 stage ('build') {
                         steps {
-                           git branch: 'branch1', url: 'https://github.com/kirankk6932/central_repo.git'
                                 sh '''
                                                 echo "this is build stage"
                                                 sleep 2
